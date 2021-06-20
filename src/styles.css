@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+progress {
+    border: none;
+    width: 400px;
+    height: 10px;
+    
+  }
+  progress::-webkit-progress-value {
+    background: white;
+  }
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
